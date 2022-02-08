@@ -1,0 +1,46 @@
+.masthead {
+  background-color: $peach;
+  margin-bottom: 4rem;
+}
+
+.masthead-wrap {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.masthead-title,
+.masthead-navigation {
+  font-size: $text-h6;
+}
+
+.masthead-navigation {
+  a {
+    margin-right: 0.25rem;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}
+
+@mixin masthead-md {
+  .masthead-title,
+  .masthead-navigation {
+    font-size: $text-h5;
+  }
+
+  .masthead-navigation {
+    a {
+      margin-right: 1rem;
+    }
+  }
+}
+
+@mixin masthead-lg {
+  .masthead-title,
+  .masthead-navigation {
+    font-size: $text-h4;
+  }
+}

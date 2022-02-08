@@ -1,0 +1,112 @@
+// Layout
+
+.clear-fix {
+  &::after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.display-block {
+  display: block;
+}
+
+// Drop cap
+
+.drop-cap:first-child:first-letter {
+  color: $ruby;
+  float: left;
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 1;
+  padding-right: 1rem;
+}
+
+// 512px
+.contain-small {
+  max-width: 32em;
+}
+
+// 1024px
+.contain-large {
+  max-width: 64rem;
+}
+
+.margin-bottom-1 {
+  margin-bottom: 1rem;
+}
+
+.margin-bottom-2 {
+  margin-bottom: 2rem;
+}
+
+.margin-bottom-4 {
+  margin-bottom: 4rem;
+}
+
+// Typography
+
+.font-family-secondary {
+  font-family: $font-family-secondary;
+}
+
+.text-h1 {
+  font-size: $text-h1;
+}
+
+.text-h2 {
+  font-size: $text-h2;
+}
+
+.text-h3 {
+  font-size: $text-h3;
+}
+
+.text-h4 {
+  font-size: $text-h4;
+}
+
+.text-h5 {
+  font-size: $text-h5;
+}
+
+.text-h6 {
+  font-size: $text-h6;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-normal {
+  font-weight: normal;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-tracked {
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
+
+// Colors
+
+.black {
+  color: $black;
+}
+
+.ruby {
+  color: $ruby;
+}
+
+.white {
+  color: $white;
+}

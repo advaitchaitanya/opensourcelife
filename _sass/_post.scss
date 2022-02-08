@@ -1,0 +1,23 @@
+.post-heading {
+  margin-bottom: 0.5rem;
+}
+
+.post-date {
+  font-family: $font-family-secondary;
+}
+
+.post-body {
+  blockquote,
+  figure,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ol,
+  ul {
+    font-weight: normal;
+    margin-bottom: 1rem;
+  }
+}

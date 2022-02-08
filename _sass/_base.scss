@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  color: $black;
+  font-family: $font-family-serif;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family-primary;
+  line-height: 1.25;
+  margin-top: 0;
+}
+
+p {
+  margin-top: 0;
+
+  + p {
+    margin-top: 1rem;
+    text-indent: 1rem;
+  }
+}
+
+a {
+  color: $ruby;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+ul {
+  padding-left: 0;
+  margin-left: 1rem;
+}
+
+blockquote {
+  border-left: 0.25rem solid $grey-light;
+  color: $grey;
+  font-style: italic;
+  padding-left: 1rem;
+}
+
+// Code
+
+code,
+pre {
+  background-color: $grey-light;
+  border-radius: 0.25em;
+  font-family: $font-family-mono;
+}
+
+code {
+  font-size: $text-h6;
+}
+
+pre {
+  display: block;
+  margin-bottom: 1rem;
+  margin-top: 0;
+  padding: 0.5rem;
+  overflow: auto;
+}
+
+// Floated image
+
+@mixin float-image-right-lg {
+  .float-image-right {
+    float: right;
+    margin-left: 1rem;
+    width: 50%;
+  }
+}
+
+// Useful for creating space around `.contain-small` children
+
+.pad-small-block {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@mixin pad-small-block-lg {
+  padding-left: 0;
+  padding-right: 0;
+}

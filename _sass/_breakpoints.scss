@@ -1,0 +1,11 @@
+// Group media query definitions
+
+@media (min-width: $breakpoint-md) {
+  @include masthead-md;
+}
+
+@media (min-width: $breakpoint-lg) {
+  @include float-image-right-lg;
+  @include footer-lg;
+  @include masthead-lg;
+}

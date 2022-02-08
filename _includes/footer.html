@@ -1,0 +1,26 @@
+<footer class="footer">
+  <div class="center contain-large">
+    <h3 class="footer-title text-center text-h3 text-normal">Built with love</h3>
+
+    <div class="footer-article-group">
+      <article class="footer-article">
+        <h4 class="margin-bottom-1 text-h4 text-normal">About this site</h4>
+        <p class="font-family-secondary footer-article-text">Open Source Life is made in Kalamazoo. It's powered by <a href="https://jekyllrb.com">Jekyll</a> and published on <a href="https://github.com/chityhi/open-source-life">GitHub</a> under the <a href="https://raw.githubusercontent.com/chityhi/open-source-life/main/LICENSE">BSD 3-Clause License</a>. For any questions, <a href="mailto:chityhi@gmail.com">shoot us an email</a>. We'd love to hear from you.</p>
+      </article>
+
+      <article class="footer-article">
+        <h4 class="margin-bottom-1 text-h4 text-normal">Browse by category</h4>
+        <ul class="footer-article-tags">
+          {% assign tag_list = site.tags | sort %}
+          {% for tag in tag_list %}
+            <li><a class="text-h4" href="{{ site.url }}/categories#{{ tag[0] }}">{{ tag[0] }}</a></li>
+          {% endfor %}
+        </ul>
+      </article>
+    </div>
+
+    <div class="footer-credit">
+      <p class="text-h5 text-normal">Open Source Life</p>
+    </div>
+  </div>
+</footer>
