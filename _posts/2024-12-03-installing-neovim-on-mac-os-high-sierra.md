@@ -16,7 +16,7 @@ In my search for an editor that met all the above preferences and also included 
 
 > Neovim is built for users who want the good parts of Vim, and more.
 
-This has led many users to create solid, shareable configs which modernize modal text editing, including familiar IDE features: auto completion, file explorer, fuzzy finder, linting, etc. One such config, which I'm currently using is [NvChad](https://nvchad.com/). This post will demonstrate how to set it all up, which I feel is a beginner friendly entry into the Vim world as their go-to editor, for those who have a little experience beyond the `vim tutor` tutorial.
+This has led many users to create solid, shareable configs which modernize modal text editing, including familiar IDE features: auto completion, file explorer, fuzzy finder, linting, etc. One such config, which I'm currently using is [NvChad](https://nvchad.com/). This post will demonstrate how to set it all up, which I feel is a beginner friendly entry into the Vim world as a go-to editor, for those who have a little experience beyond the `vim tutor` tutorial.
 
 ![Neovim setup with NvChad](/assets/images/2024-12-03.jpg "Neovim setup with NvChad")
 > Neovim with NvChad config running on macOS High Sierra in [iTerm2](https://iterm2.com/) with the [Gruvbox](https://iterm2colorschemes.com/) theme
@@ -35,4 +35,4 @@ git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
 
 ## We Did It
 
-We now have a beautiful editor setup, with a lot of possibilities. In a future post, I plan to write about switching to Neovim, and how the barrier to entry isn't really as high as most people make it out to be, especially with a well thought-out config like this. I wrote this article as a reference for my future self, and a guide for all those like me, who couldn't find a solution, but trusted it was possible.
+We now have a beautiful editor setup, with a lot of possibilities. In a future post, I plan to write about switching to Neovim, and how the barrier to entry isn't really as high as most people make it out to be, especially with a well thought-out config like this. I wrote this article as a reference for my future self, and guide for all those like me, who couldn't find a solution, but trusted it was possible.
