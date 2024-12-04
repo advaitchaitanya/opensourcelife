@@ -18,6 +18,9 @@ In my search for an editor that met all the above preferences and also included 
 
 This has led many users to create solid, shareable configs which modernize modal text editing, including familiar IDE features: auto completion, file explorer, fuzzy finder, linting, etc. One such config, which I'm currently using is [NvChad](https://nvchad.com/). This post will demonstrate how to set it all up, which I feel is a beginner friendly entry into the Vim world as their go-to editor, for those who have a little experience beyond the `vim tutor` tutorial.
 
+![Neovim setup with NvChad](/assets/images/2024-12-03.jpg "Neovim setup with NvChad")
+> Neovim with NvChad config running on macOS High Sierra in [iTerm2](https://iterm2.com/) with the [Gruvbox](https://iterm2colorschemes.com/) theme
+
 ## Installing Neovim
 
 1. Install [MacPorts](https://www.macports.org/install.php#installing), a package managager for macOS. Following the link, you can see a list of installers, with support all the way back to Leopard! Though Neovim has straightforward installation instructions manually as well as through [Homebrew](https://brew.sh/), both won't build and patch properly. MacPorts comes to save us.
